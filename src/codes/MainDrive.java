@@ -55,6 +55,11 @@ public class MainDrive {
 		}
 //		값이 다른 문장이라고 나옴..?! 
 		
+		d1.bark();
+		
+		Cat c1 = new Cat();
+		c1.bark();
+		
 		
 		
 	}
