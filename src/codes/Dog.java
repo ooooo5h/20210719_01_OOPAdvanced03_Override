@@ -15,5 +15,14 @@ public class Dog extends Animal {
 			
 			System.out.println("왈왈!");
 		}
+	
+	@Override
+		public String toString() {
+
+		
+		String message = this.name + " / " + this.birthYear + "년생";
+		return message;
+		
+		}
 
 }
