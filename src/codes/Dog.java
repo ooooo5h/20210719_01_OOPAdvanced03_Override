@@ -7,5 +7,13 @@ public class Dog extends Animal {
 	void keepHome() {
 		System.out.println("개가 집을 지킵니다.");
 	}
+	
+	@Override
+		void bark() {
+		
+//			super.bark();
+			
+			System.out.println("왈왈!");
+		}
 
 }
