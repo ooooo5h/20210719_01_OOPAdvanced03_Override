@@ -47,7 +47,7 @@ public class MainDrive {
 		String s2 = new String("테스트");
 		
 		
-		if(s1 == s2) {
+		if(s1.equals(s2)) {
 			System.out.println("같은 문장");
 		}
 		else {
