@@ -24,5 +24,19 @@ public class Dog extends Animal {
 		return message;
 		
 		}
+	
+	@Override
+		public boolean equals(Object obj) {
+			
+		Dog otherDog = (Dog) obj;  // 안배운 개념
+		
+		if(this.name == otherDog.name) {
+			return true;
+		}
+		else {
+			return false;
+		}
+		
+		}
 
 }
